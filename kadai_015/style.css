@@ -1,15 +1,17 @@
-/* body */
-/* style.cssに記述 h1の装飾  */
+/* style.cssに記述 */
 
-html{
-  font-size:16pcx;
+html {
+  font-size: 20px;
+}
+
+body {
+   font-family:"Arial", "Meiryo", sans-serif;
 }
 h1 {
-  font-size: 2rem; /* ルート要素の2倍（32px） */
   font-family: "Josefin Sans", sans-serif;
-  font-weight: <weight>;
-  font-style: normal;
+  font-size: 2rem; /* ルート要素の2倍（40px） */
   letter-spacing:1.2em;
+  text-shadow: 2px 2px 2px gray;
   border-bottom:solid 3px rgb(115, 115, 114);
   text-align:center;
 }
@@ -20,24 +22,23 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
-*/
 .josefin-sans-<uniquifier> {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-
-h2,p{
+*/
+h2,p {
   text-align:center;
 }
 
-#basic {
+#basic p{
   font-weight:bold;
 }
-.blue{
-  color:#82c5fd;
+.blue {
+  color:skyblue;
 }
-.pink{
-  color:#f99cf1;
+.pink {
+  color:rgb(255, 192, 203)
 }
