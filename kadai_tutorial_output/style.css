@@ -1,4 +1,4 @@
-/* pc,スマホ共通スタイル */
+/* PC,スマホ共通スタイル */
 * {
     box-sizing: border-box;
 }
@@ -189,7 +189,7 @@ h3 {
 
 /* もっと見るボタン */
 #product-more{
-    text-align:center;
+    text-align: center;
 }
 
 #product-more a {
@@ -515,29 +515,29 @@ footer {
     margin-bottom: 40px;
 }
 
-.fivegoals-image-right{
+.fivegoals-image-right {
     float: right;
     margin: 20px;
 }
 
-.fivegoals-image-left{
+.fivegoals-image-left {
     float: left;
     margin: 20px;
 }
 
-.fivegoals-number{
+.fivegoals-number {
     color:#2710d5;
     font-size: 48px;
     font-weight: bold;
     margin: 0;
 }
 
-.fivegoals-h3{
+.fivegoals-h3 {
     font-size: 28px;
     margin: 0;
 }
 
-.fivegoals-p{
+.fivegoals-p {
     margin: 0;
 }
 
@@ -548,7 +548,7 @@ footer {
     background-repeat: no-repeat;
     background-position-y: center;
 }
-#product-title{
+#product-title {
     background-color:#2710d5;
     width: 368px;
     color: #ffffff;
@@ -708,7 +708,7 @@ footer {
     text-align: center;
     height:280px;
 }
-#main-visual > h1 {
+#main-visual h1 {
     font-size: 28px;
     margin: 90px 0 0 0;
 }
@@ -909,13 +909,13 @@ footer {
 /* mission.html用のスタイル */
 /* ミッションのメインビジュアル */
 
-#mission-main{
+#mission-main {
     height: 256px;
     margin-top: 4%;
     position: relative;
 }
 
-.mission-main-inner{
+.mission-main-inner {
     height: 80%;
     background-size: cover;
 }
@@ -932,37 +932,37 @@ footer {
     font-size: 40px;
 }
 
-#mission-title h1 span{
+#mission-title h1 span {
     font-size: 18px;
 }
 
-#mission-title > p{
+#mission-title > p {
     top: 180px;
     left: 20px;
     font-size: 13px;
 }
 
 /* ミッションページ　S2DGSの設定 */
-.mission-h2{
+.mission-h2 {
     font-size: 38px;
     margin: 0px;
 }
 
-.mission-h2::after{
+.mission-h2::after {
     content: none;
 }
 
-.mission-s2dgs > img {
+#mission-s2dgs > img {
     width:100%;
 }
 
 /* ミッションページ　5つのゴールの設定 */
 
-#mission-five-goals{
+#mission-five-goals {
     flex-direction: column;
 }
 
-#mission-five-goals > div{
+#mission-five-goals > div {
     padding: 0;
 }
 
@@ -984,7 +984,7 @@ footer {
 
 
 /* プロダクトページ */
-.product-main {
+#product-main {
     height: 256px;
     margin-top: 4%;
     position: relative;
